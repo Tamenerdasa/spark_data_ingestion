@@ -16,7 +16,7 @@ for i in table_list:
 	    .format("jdbc") \
 	    .option('url', 'jdbc:mysql://localhost:3306/insurance') \
 	    .option('user', 'root') \
-	    .option('password', 'greatnaolAT0*') \
+	    .option('password', '') \
 	    .option('dbtable', i) \
 	    .load()
 
