@@ -18,7 +18,7 @@ for i in table_list:
 	    .option('url', 'jdbc:sqlserver://localhost:1433;databaseName=insurance') \
 	    .option("driver","com.microsoft.sqlserver.jdbc.SQLServerDriver") \
 	    .option('user', 'SA') \
-	    .option('password', 'greatnaolAT0*') \
+	    .option('password', '') \
 	    .option('dbtable', 'dbo.'+i) \
 	    .load()
 
