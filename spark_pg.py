@@ -16,7 +16,7 @@ for i in table_list:
 	    .format("jdbc") \
 	    .option('url', 'jdbc:postgresql://localhost:5432/insurance') \
 	    .option('user', 'postgres') \
-	    .option('password', 'greatnaolat0') \
+	    .option('password', '') \
 	    .option('dbtable', i) \
 	    .load()
 
